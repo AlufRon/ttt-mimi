@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "TTTForCausalLM"
+  ],
+  "bos_token_id": 1,
+  "conv_kernel": 4,
+  "eos_token_id": 2,
+  "hidden_act": "silu",
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 2048,
+  "mini_batch_size": 16,
+  "model_type": "ttt",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pre_conv": true,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 10000.0,
+  "scan_checkpoint_group_size": 0,
+  "share_qk": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.50.0.dev0",
+  "ttt_base_lr": 1.0,
+  "ttt_layer_type": "linear",
+  "use_cache": false,
+  "use_gate": true,
+  "vocab_size": 16384
+}
